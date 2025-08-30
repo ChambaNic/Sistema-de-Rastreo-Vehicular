@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.prueba.adapter.RutaAdapter;
+import com.example.prueba.model.Ruta;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -101,8 +104,5 @@ public class RutasActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-}
-
     }
 }

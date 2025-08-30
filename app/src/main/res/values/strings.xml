@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Prueba</string>
+    <string name="titulo_nuevo_vehiculo">Nuevo Vehículo</string>
+    <string name="hint_placa">Placa</string>
+    <string name="hint_modelo">Modelo</string>
+    <string name="hint_tipo_vehiculo">Tipo (ej. Camión, Furgoneta)</string>
+    <string name="hint_capacidad">Capacidad de carga (kg)</string>
+    <string name="hint_estado">Estado Operativo (ej. Disponible, En reparación)</string>
+    <string name="btn_guardar">Guardar Vehículo</string>
+    <string name="msg_guardado_exitoso">Vehículo guardado exitosamente.</string>
 </resources>
