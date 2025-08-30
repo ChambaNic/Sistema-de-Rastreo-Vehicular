@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <!-- Botón para agregar ruta -->
+    <Button
+        android:id="@+id/btnAgregarRuta"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Agregar Ruta" />
+
+    <!-- Lista de rutas en el centro -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRutas"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+
+    <!-- Botón para iniciar rastreo -->
+    <Button
+        android:id="@+id/btnIniciarRastreo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Iniciar Rastreo" />
+
+</LinearLayout>
+

@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="#f4f8fb">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Logo de la empresa"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Nombre empresa -->
+    <TextView
+        android:id="@+id/nombreEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EcoTrack Express"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0a3d62"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Slogan -->
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entregas seguras, en tiempo real"
+        android:textSize="16sp"
+        android:textColor="#3c6382"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Mapa decorativo -->
+    <ImageView
+        android:id="@+id/mapaDecorativo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mapa1"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botones de navegación -->
+    <!-- Botón de Ruta -->
+    <Button
+        android:id="@+id/btnRutas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rutas"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Botón de Vehiculo -->
+    <Button
+        android:id="@+id/btnVehiculos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehículos"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Botón de Conductor -->
+    <Button
+        android:id="@+id/btnConductores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conductores"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Botón de Contacto -->
+    <Button
+        android:id="@+id/btnContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacto"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

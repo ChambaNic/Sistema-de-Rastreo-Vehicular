@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f4f8fb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear Nueva Ruta"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0a3d62"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha (dd/mm/aaaa)"
+            android:inputType="date"/>
+
+        <EditText
+            android:id="@+id/txtConductor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del conductor"/>
+
+        <EditText
+            android:id="@+id/txtVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Placa del vehículo"/>
+
+        <EditText
+            android:id="@+id/txtPaquetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cantidad de paquetes"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnGuardarRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Ruta"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
